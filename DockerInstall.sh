@@ -22,4 +22,5 @@ docker run -d -p 9000:9000 --name portainer \
     -v /root/data/docker_data/portainer/data:/data \
     cr.portainer.io/portainer/portainer-ce
 echo "Portainer安装完成"
-echo "安装完成，脚本结束"
+echo "安装完成，清除脚本"
+rm $0
